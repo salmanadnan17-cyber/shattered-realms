@@ -83,7 +83,7 @@
     }
   ],
   "url": "https://github.com/yourusername/shattered-realms",
-  "manifest": "https://github.com/salmanadnan17-cyber/shattered-realms/releases/latest/download/module.json",
+  "manifest": "https://github.com/salmanadnan17-cyber/shattered-realms/releases/latest/download/world.json",
   "download": "https://github.com/salmanadnan17-cyber/shattered-realms/releases/latest/download/shattered-realms.zip",
   "license": "LICENSE",
   "readme": "README.md"
