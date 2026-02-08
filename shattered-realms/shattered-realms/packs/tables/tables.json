@@ -1,0 +1,327 @@
+[
+  {
+    "_id": "a48442a84d7c49b8",
+    "name": "Random Rift Encounters",
+    "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+    "description": "Roll when characters approach or investigate a rift",
+    "formula": "1d20",
+    "results": [
+      {
+        "range": [
+          1,
+          3
+        ],
+        "text": "Rift Goblins (1d6+2) are scavenging near the rift",
+        "img": "icons/creatures/eyes/lizard-single-slit-pink.webp"
+      },
+      {
+        "range": [
+          4,
+          6
+        ],
+        "text": "A Rift Demon is attempting to stabilize the rift to allow more demons through",
+        "img": "icons/magic/unholy/strike-beam-blood-red-purple.webp"
+      },
+      {
+        "range": [
+          7,
+          9
+        ],
+        "text": "Phase Spider Matriarch with 1d4+1 young phase spiders hunting near the rift",
+        "img": "icons/creatures/invertebrates/spider-large-giant-web.webp"
+      },
+      {
+        "range": [
+          10,
+          12
+        ],
+        "text": "The rift suddenly pulses, all within 30 feet must make DC 15 Charisma save or be teleported 1d100 feet in a random direction",
+        "img": "icons/magic/symbols/runes-triangle-blue.webp"
+      },
+      {
+        "range": [
+          13,
+          15
+        ],
+        "text": "A group of Rift Walkers are studying the rift and offer information or assistance",
+        "img": "icons/environment/people/group-men-grey.webp"
+      },
+      {
+        "range": [
+          16,
+          17
+        ],
+        "text": "Twilight Druids are performing a ritual to expand the rift",
+        "img": "icons/magic/nature/root-vine-entangled-hand.webp"
+      },
+      {
+        "range": [
+          18,
+          19
+        ],
+        "text": "A Rift Troll bursts from the rift, disoriented and aggressive",
+        "img": "icons/creatures/mammals/bull-horned-glowing-orange.webp"
+      },
+      {
+        "range": [
+          20,
+          20
+        ],
+        "text": "The rift briefly connects to a beneficial plane - roll on the Beneficial Rift Effects table",
+        "img": "icons/magic/light/orbs-group-purple.webp"
+      }
+    ]
+  },
+  {
+    "_id": "1bf2e94e7e7b4ce0",
+    "name": "Rift Treasure",
+    "img": "icons/containers/chest/chest-reinforced-steel-red.webp",
+    "description": "Treasures found in rift zones or on rift-related enemies",
+    "formula": "1d12",
+    "results": [
+      {
+        "range": [
+          1,
+          3
+        ],
+        "text": "1d4 x 100 gold pieces and a random common magic item",
+        "img": "icons/commodities/currency/coins-assorted-mix-gold.webp"
+      },
+      {
+        "range": [
+          4,
+          6
+        ],
+        "text": "1d3 Twilight Crystals (500 gp each)",
+        "img": "icons/commodities/gems/gem-rough-teal.webp"
+      },
+      {
+        "range": [
+          7,
+          8
+        ],
+        "text": "1 Rift Shard and 2d6 x 100 gold pieces",
+        "img": "icons/commodities/materials/glass-faceted-black.webp"
+      },
+      {
+        "range": [
+          9,
+          10
+        ],
+        "text": "Potion of Rift Resistance and 1d6 x 50 gold pieces",
+        "img": "icons/consumables/potions/potion-flask-corked-blue.webp"
+      },
+      {
+        "range": [
+          11,
+          11
+        ],
+        "text": "Random uncommon magic item with a rift theme",
+        "img": "icons/equipment/finger/ring-band-simple-rounded-copper.webp"
+      },
+      {
+        "range": [
+          12,
+          12
+        ],
+        "text": "Random rare magic item with planar properties",
+        "img": "icons/equipment/neck/amulet-jeweled-gold-blue.webp"
+      }
+    ]
+  },
+  {
+    "_id": "0ca4a0ffce984e6d",
+    "name": "Wilderness Encounters - Ironpeak Region",
+    "img": "icons/environment/wilderness/terrain-mountain-rocky.webp",
+    "description": "Random encounters in the Ironpeak Mountains",
+    "formula": "1d12",
+    "results": [
+      {
+        "range": [
+          1,
+          2
+        ],
+        "text": "Bloodaxe Orc Raiders (2d4) attacking a dwarf caravan",
+        "img": "icons/weapons/axes/axe-double-engraved.webp"
+      },
+      {
+        "range": [
+          3,
+          4
+        ],
+        "text": "Shadowfang Orc patrol (1d6+2) - potentially friendly if approached peacefully",
+        "img": "icons/environment/people/group-men-grey.webp"
+      },
+      {
+        "range": [
+          5,
+          6
+        ],
+        "text": "Cave entrance leading to Deep Roads (possibly infested)",
+        "img": "icons/environment/wilderness/cave-entrance-mountain.webp"
+      },
+      {
+        "range": [
+          7,
+          8
+        ],
+        "text": "Evidence of recent giant activity (tracks, destroyed trees, etc.)",
+        "img": "icons/skills/wounds/bone-broken-marrow-yellow.webp"
+      },
+      {
+        "range": [
+          9,
+          10
+        ],
+        "text": "Abandoned dwarven outpost with potential treasure or danger",
+        "img": "icons/environment/settlement/house-stone.webp"
+      },
+      {
+        "range": [
+          11,
+          11
+        ],
+        "text": "Small rift opening - roll on Random Rift Encounters table",
+        "img": "icons/magic/symbols/runes-star-pentagon-blue.webp"
+      },
+      {
+        "range": [
+          12,
+          12
+        ],
+        "text": "Dwarf merchant caravan willing to trade or share information",
+        "img": "icons/environment/people/commoner-cart.webp"
+      }
+    ]
+  },
+  {
+    "_id": "9b600e573d8143dc",
+    "name": "Twilight Forest Encounters",
+    "img": "icons/environment/wilderness/tree-oak.webp",
+    "description": "Encounters in the corrupted Twilight Forest",
+    "formula": "1d10",
+    "results": [
+      {
+        "range": [
+          1,
+          2
+        ],
+        "text": "Twilight Druids (1d4) performing a corruption ritual",
+        "img": "icons/magic/nature/root-vine-entangled-hand.webp"
+      },
+      {
+        "range": [
+          3,
+          4
+        ],
+        "text": "Corrupted treants attacking anything that moves",
+        "img": "icons/magic/nature/tree-animated-strike.webp"
+      },
+      {
+        "range": [
+          5,
+          6
+        ],
+        "text": "Illusion or time distortion - make DC 14 Wisdom save or become confused for 1d4 rounds",
+        "img": "icons/magic/perception/eye-ringed-glow-yellow.webp"
+      },
+      {
+        "range": [
+          7,
+          8
+        ],
+        "text": "Refugees from Silverleaf fleeing deeper corruption",
+        "img": "icons/environment/people/commoner-family.webp"
+      },
+      {
+        "range": [
+          9,
+          9
+        ],
+        "text": "Portal to the Feywild appears briefly - opportunity or danger",
+        "img": "icons/magic/symbols/runes-star-purple.webp"
+      },
+      {
+        "range": [
+          10,
+          10
+        ],
+        "text": "Ancient elven shrine with protective magic still functioning",
+        "img": "icons/environment/settlement/temple.webp"
+      }
+    ]
+  },
+  {
+    "_id": "74cab1ad1ee743a2",
+    "name": "Rift City Random Events",
+    "img": "icons/environment/settlement/city-many-towers.webp",
+    "description": "Daily events and encounters in Rift City",
+    "formula": "1d20",
+    "results": [
+      {
+        "range": [
+          1,
+          4
+        ],
+        "text": "Nothing unusual - normal city life",
+        "img": "icons/environment/people/group-men-grey.webp"
+      },
+      {
+        "range": [
+          5,
+          8
+        ],
+        "text": "Merchant offers to sell rift-related goods or information",
+        "img": "icons/environment/people/commoner-merchant.webp"
+      },
+      {
+        "range": [
+          9,
+          11
+        ],
+        "text": "Argument between Circle of Binding and Rift Walkers members - might escalate",
+        "img": "icons/skills/social/diplomacy-handshake.webp"
+      },
+      {
+        "range": [
+          12,
+          14
+        ],
+        "text": "Something unusual emerged from the Central Rift last night - rumors spread",
+        "img": "icons/magic/symbols/runes-star-pentagon-blue.webp"
+      },
+      {
+        "range": [
+          15,
+          16
+        ],
+        "text": "Job opportunity posted - escort needed for rift zone expedition",
+        "img": "icons/sundries/documents/document-sealed-brown-red.webp"
+      },
+      {
+        "range": [
+          17,
+          18
+        ],
+        "text": "Pickpocket or con artist targets the party",
+        "img": "icons/skills/trades/woodcutting-sawing-logger-brown.webp"
+      },
+      {
+        "range": [
+          19,
+          19
+        ],
+        "text": "Planar merchant from another plane selling exotic goods",
+        "img": "icons/containers/boxes/crate-wooden-reinforced.webp"
+      },
+      {
+        "range": [
+          20,
+          20
+        ],
+        "text": "Important NPC seeks party's help with urgent matter",
+        "img": "icons/environment/people/cleric-orange.webp"
+      }
+    ]
+  }
+]

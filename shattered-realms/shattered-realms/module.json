@@ -1,0 +1,90 @@
+{
+  "id": "shattered-realms",
+  "title": "The Shattered Realms - Complete Campaign",
+  "version": "1.0.0",
+  "description": "<p>A complete D&D 5e campaign world featuring magic, trolls, orcs, and mythological creatures. Explore the war-torn lands of the Shattered Realms, where ancient magic has fractured reality itself. This comprehensive module includes multiple scenes, encounters, NPCs, magical items, and weeks of adventure content.</p>",
+  "authors": [
+    {
+      "name": "Campaign Creator",
+      "flags": {}
+    }
+  ],
+  "compatibility": {
+    "minimum": "11",
+    "verified": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "2.0.0"
+        }
+      }
+    ]
+  },
+  "packs": [
+    {
+      "name": "shattered-realms-adventure",
+      "label": "The Shattered Realms - Main Adventure",
+      "path": "packs/adventure",
+      "type": "Adventure",
+      "system": "dnd5e"
+    },
+    {
+      "name": "shattered-realms-scenes",
+      "label": "Shattered Realms Scenes",
+      "path": "packs/scenes",
+      "type": "Scene",
+      "system": "dnd5e"
+    },
+    {
+      "name": "shattered-realms-actors",
+      "label": "Shattered Realms Actors & Creatures",
+      "path": "packs/actors",
+      "type": "Actor",
+      "system": "dnd5e"
+    },
+    {
+      "name": "shattered-realms-items",
+      "label": "Shattered Realms Items & Equipment",
+      "path": "packs/items",
+      "type": "Item",
+      "system": "dnd5e"
+    },
+    {
+      "name": "shattered-realms-journals",
+      "label": "Shattered Realms Lore & Journals",
+      "path": "packs/journals",
+      "type": "JournalEntry",
+      "system": "dnd5e"
+    },
+    {
+      "name": "shattered-realms-tables",
+      "label": "Shattered Realms Rollable Tables",
+      "path": "packs/tables",
+      "type": "RollTable",
+      "system": "dnd5e"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "The Shattered Realms",
+      "sorting": "a",
+      "packs": [
+        "shattered-realms-adventure",
+        "shattered-realms-scenes",
+        "shattered-realms-actors",
+        "shattered-realms-items",
+        "shattered-realms-journals",
+        "shattered-realms-tables"
+      ]
+    }
+  ],
+  "url": "https://github.com/yourusername/shattered-realms",
+  "manifest": "https://github.com/yourusername/shattered-realms/releases/latest/download/module.json",
+  "download": "https://github.com/yourusername/shattered-realms/releases/latest/download/shattered-realms.zip",
+  "license": "LICENSE",
+  "readme": "README.md"
+}

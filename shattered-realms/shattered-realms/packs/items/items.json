@@ -1,0 +1,236 @@
+[
+  {
+    "_id": "cc05dda4f3004784",
+    "name": "Riftblade",
+    "type": "weapon",
+    "img": "icons/weapons/swords/sword-guard-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p><strong>Weapon (longsword), very rare (requires attunement)</strong></p><p>This blade was forged from metal harvested from a collapsed rift. It shimmers with otherworldly energy and can cut through the fabric of reality itself.</p><p><strong>Properties:</strong></p><ul><li>+2 to attack and damage rolls</li><li>Deals an additional 1d6 force damage on hit</li><li>Once per day, you can use an action to slash open a small rift that allows you to teleport up to 60 feet to an unoccupied space you can see</li><li>You have advantage on saving throws against spells and effects that involve planar travel or dimensional shifting</li></ul>",
+        "chat": "",
+        "unidentified": "A sword that seems to shimmer and blur slightly, as if not quite fully present in this reality."
+      },
+      "quantity": 1,
+      "weight": 3,
+      "rarity": "veryRare",
+      "identified": true,
+      "activation": {
+        "type": "action",
+        "cost": 1
+      },
+      "damage": {
+        "parts": [
+          [
+            "1d8 + 2",
+            "slashing"
+          ],
+          [
+            "1d6",
+            "force"
+          ]
+        ]
+      },
+      "weaponType": "martialM",
+      "properties": {
+        "ver": true
+      }
+    }
+  },
+  {
+    "_id": "22d4a9d101974ce3",
+    "name": "Amulet of Planar Anchoring",
+    "type": "equipment",
+    "img": "icons/equipment/neck/amulet-jeweled-gold-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p><strong>Wondrous item, rare (requires attunement)</strong></p><p>This amulet contains a fragment of stabilized reality, anchoring you to the Material Plane.</p><p><strong>Properties:</strong></p><ul><li>You cannot be unwillingly teleported, banished, or sent to another plane</li><li>You have advantage on saving throws against effects from rifts</li><li>You can sense the direction and approximate distance to the nearest rift within 1 mile</li><li>Once per long rest, you can cast <em>dispel magic</em> on a rift-related magical effect</li></ul>",
+        "chat": "",
+        "unidentified": "An amulet that feels unusually solid and real when held."
+      },
+      "quantity": 1,
+      "weight": 0.5,
+      "rarity": "rare",
+      "identified": true,
+      "armor": {
+        "type": "trinket"
+      }
+    }
+  },
+  {
+    "_id": "bdf705f5b1b04800",
+    "name": "Staff of Reality Weaving",
+    "type": "weapon",
+    "img": "icons/weapons/staves/staff-ornate-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p><strong>Staff, legendary (requires attunement by a spellcaster)</strong></p><p>This staff was created by studying the nature of rifts. It allows its wielder to subtly manipulate reality.</p><p><strong>Properties:</strong></p><ul><li>+2 to spell attack rolls and spell save DC</li><li>Grants the ability to cast <em>teleport</em> once per day without using a spell slot</li><li>You can spend 1 minute to create a temporary minor rift that acts as a portal to any location on the Material Plane you have visited before (lasts 10 minutes)</li><li>Creatures have disadvantage on saving throws against your spells that involve force damage or dimensional effects</li></ul><p><strong>Curse:</strong> Each time you use the staff's rift-creating power, roll a d20. On a 1, the rift becomes unstable and summons 1d4 hostile creatures from a random plane.</p>",
+        "chat": "",
+        "unidentified": "A staff carved with strange symbols that seem to shift when not directly observed."
+      },
+      "quantity": 1,
+      "weight": 4,
+      "rarity": "legendary",
+      "identified": true,
+      "weaponType": "simpleM",
+      "damage": {
+        "parts": [
+          [
+            "1d6",
+            "bludgeoning"
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "_id": "16fcb802724245bf",
+    "name": "Boots of Phase Walking",
+    "type": "equipment",
+    "img": "icons/equipment/feet/boots-armored-steel.webp",
+    "system": {
+      "description": {
+        "value": "<p><strong>Wondrous item, uncommon (requires attunement)</strong></p><p>These boots shimmer with ethereal energy, allowing brief shifts between planes.</p><p><strong>Properties:</strong></p><ul><li>As a bonus action, you can partially phase into the Ethereal Plane until the start of your next turn. While phased, you can move through other creatures and objects as if they were difficult terrain. You take 1d10 force damage if you end your turn inside an object.</li><li>You can use this ability 3 times per long rest</li><li>You have advantage on Dexterity saving throws to avoid traps</li></ul>",
+        "chat": "",
+        "unidentified": "Boots that seem slightly transparent."
+      },
+      "quantity": 1,
+      "weight": 2,
+      "rarity": "uncommon",
+      "identified": true,
+      "armor": {
+        "type": "clothing"
+      }
+    }
+  },
+  {
+    "_id": "73b30a52c3b54562",
+    "name": "Cloak of Many Planes",
+    "type": "equipment",
+    "img": "icons/equipment/back/cloak-collared-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p><strong>Wondrous item, very rare (requires attunement)</strong></p><p>This cloak has been woven from threads taken from different planes of existence.</p><p><strong>Properties:</strong></p><ul><li>You gain resistance to one damage type of your choice (fire, cold, lightning, acid, or thunder). You can change this resistance after a long rest.</li><li>Once per day, you can cast <em>plane shift</em> to transport yourself and up to 8 willing creatures to a location on a different plane that you have visited before</li><li>You can understand (but not speak) all languages</li></ul>",
+        "chat": "",
+        "unidentified": "A cloak that shifts colors and patterns constantly."
+      },
+      "quantity": 1,
+      "weight": 1,
+      "rarity": "veryRare",
+      "identified": true,
+      "armor": {
+        "type": "clothing"
+      }
+    }
+  },
+  {
+    "_id": "d4dab6822ab34ccd",
+    "name": "Ring of Rift Sight",
+    "type": "equipment",
+    "img": "icons/equipment/finger/ring-band-simple-rounded-copper.webp",
+    "system": {
+      "description": {
+        "value": "<p><strong>Ring, uncommon (requires attunement)</strong></p><p>This ring allows you to perceive rifts and planar instabilities.</p><p><strong>Properties:</strong></p><ul><li>You can see invisible creatures and objects within 60 feet</li><li>You can see into the Ethereal Plane to a distance of 60 feet</li><li>You can automatically detect rifts within 120 feet and can sense their approximate size and stability</li><li>You have disadvantage on saving throws against gaze attacks and similar vision-based effects</li></ul>",
+        "chat": "",
+        "unidentified": "A ring with a strange crystalline setting."
+      },
+      "quantity": 1,
+      "weight": 0,
+      "rarity": "uncommon",
+      "identified": true,
+      "armor": {
+        "type": "trinket"
+      }
+    }
+  },
+  {
+    "_id": "15b3484cd55f4387",
+    "name": "Shadowfang War Axe",
+    "type": "weapon",
+    "img": "icons/weapons/axes/axe-broad-black.webp",
+    "system": {
+      "description": {
+        "value": "<p><strong>Weapon (greataxe), rare</strong></p><p>This axe was forged by the Shadowfang Clan as a symbol of their new way. It combines orcish warrior tradition with dwarven craftsmanship.</p><p><strong>Properties:</strong></p><ul><li>+1 to attack and damage rolls</li><li>When you score a critical hit, the target must succeed on a DC 15 Wisdom saving throw or be frightened of you until the end of your next turn</li><li>You have advantage on Charisma (Intimidation) checks while wielding this weapon</li></ul>",
+        "chat": "",
+        "unidentified": "A well-crafted axe with orcish and dwarven symbols."
+      },
+      "quantity": 1,
+      "weight": 7,
+      "rarity": "rare",
+      "identified": true,
+      "weaponType": "martialM",
+      "damage": {
+        "parts": [
+          [
+            "1d12 + 1",
+            "slashing"
+          ]
+        ]
+      },
+      "properties": {
+        "hvy": true,
+        "two": true
+      }
+    }
+  },
+  {
+    "_id": "aba180acbe2a4dc5",
+    "name": "Potion of Rift Resistance",
+    "type": "consumable",
+    "img": "icons/consumables/potions/potion-flask-corked-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p><strong>Potion, uncommon</strong></p><p>This swirling, iridescent potion protects against the corrupting influence of rifts.</p><p>When you drink this potion, for the next hour you have advantage on all saving throws against effects caused by rifts, and you take half damage from any damage caused by rift energy or rift-spawned creatures.</p>",
+        "chat": "",
+        "unidentified": "A potion with strange colors swirling inside."
+      },
+      "quantity": 1,
+      "weight": 0.5,
+      "rarity": "uncommon",
+      "identified": true,
+      "consumableType": "potion",
+      "uses": {
+        "value": 1,
+        "max": 1,
+        "per": "charges"
+      },
+      "activation": {
+        "type": "action",
+        "cost": 1
+      }
+    }
+  },
+  {
+    "_id": "8fd976b308fe4bfb",
+    "name": "Twilight Crystal",
+    "type": "loot",
+    "img": "icons/commodities/gems/gem-rough-teal.webp",
+    "system": {
+      "description": {
+        "value": "<p><strong>Wondrous item, rare</strong></p><p>A crystal harvested from the Twilight Forest, infused with rift energy. Valued by wizards and alchemists.</p><p>A twilight crystal can be used as a material component for spells that manipulate time, space, or reality. When used this way, the spell's save DC increases by 1.</p><p>Alternatively, a wizard can spend 1 hour to absorb the crystal's energy, gaining the ability to cast one additional spell of 3rd level or lower without using a spell slot. The crystal is consumed in this process.</p><p><strong>Market Value:</strong> 500-800 gold pieces.</p>",
+        "chat": "",
+        "unidentified": "A strange glowing crystal."
+      },
+      "quantity": 1,
+      "weight": 0.1,
+      "rarity": "rare",
+      "identified": true
+    }
+  },
+  {
+    "_id": "f275009f121942e2",
+    "name": "Rift Shard",
+    "type": "loot",
+    "img": "icons/commodities/materials/glass-faceted-black.webp",
+    "system": {
+      "description": {
+        "value": "<p><strong>Material component, very rare</strong></p><p>A fragment of solidified rift energy. Extremely dangerous to handle but incredibly valuable.</p><p>A rift shard can be used as a focus for planar magic. Any spell you cast that involves summoning, banishment, teleportation, or planar travel has its range increased by 50%.</p><p>A rift shard can also be consumed to power a ritual that creates a temporary rift. This requires 1 hour and a successful DC 18 Arcana check. On success, a rift opens that remains stable for 10 minutes. On failure, the shard explodes, dealing 10d6 force damage to all creatures within 20 feet.</p><p><strong>Market Value:</strong> 2,000-5,000 gold pieces (if you can find a buyer).</p>",
+        "chat": "",
+        "unidentified": "A shard of something that hurts to look at directly."
+      },
+      "quantity": 1,
+      "weight": 0.5,
+      "rarity": "veryRare",
+      "identified": true
+    }
+  }
+]

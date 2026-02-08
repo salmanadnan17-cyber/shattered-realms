@@ -1,0 +1,505 @@
+[
+  {
+    "_id": "79a11058e76d44e2",
+    "name": "Valdris the Shattered",
+    "type": "npc",
+    "img": "icons/magic/death/skull-horned-worn-fire-blue.webp",
+    "system": {
+      "abilities": {
+        "str": {
+          "value": 11
+        },
+        "dex": {
+          "value": 16
+        },
+        "con": {
+          "value": 16
+        },
+        "int": {
+          "value": 20
+        },
+        "wis": {
+          "value": 14
+        },
+        "cha": {
+          "value": 16
+        }
+      },
+      "attributes": {
+        "ac": {
+          "value": 17
+        },
+        "hp": {
+          "value": 135,
+          "max": 135
+        },
+        "movement": {
+          "walk": 30,
+          "fly": 30
+        }
+      },
+      "details": {
+        "cr": 13,
+        "type": {
+          "value": "undead"
+        },
+        "alignment": "Neutral Evil",
+        "biography": {
+          "value": "<p>Once a brilliant archmage, Valdris was consumed by his obsession with controlling the Shattered Rifts. He transformed himself into a lich, believing undeath would give him the centuries needed to master planar magic. Now he seeks to tear open all the rifts simultaneously, merging the planes into one chaotic realm under his control.</p>"
+        }
+      }
+    }
+  },
+  {
+    "_id": "c052e297d52c4c81",
+    "name": "Grommak Shadowfang",
+    "type": "npc",
+    "img": "icons/creatures/abilities/mouth-teeth-long-red.webp",
+    "system": {
+      "abilities": {
+        "str": {
+          "value": 18
+        },
+        "dex": {
+          "value": 12
+        },
+        "con": {
+          "value": 16
+        },
+        "int": {
+          "value": 12
+        },
+        "wis": {
+          "value": 14
+        },
+        "cha": {
+          "value": 14
+        }
+      },
+      "attributes": {
+        "ac": {
+          "value": 16
+        },
+        "hp": {
+          "value": 93,
+          "max": 93
+        },
+        "movement": {
+          "walk": 30
+        }
+      },
+      "details": {
+        "cr": 5,
+        "type": {
+          "value": "humanoid"
+        },
+        "alignment": "Lawful Neutral",
+        "biography": {
+          "value": "<p>Chieftain of the Shadowfang Clan, Grommak is a visionary orc leader who believes his people's future lies in civilization, not endless war. He has forbidden raiding and instead focuses on building, trading, and proving that orcs can be more than monsters. This makes him beloved by his progressive followers and reviled by traditionalist orcs.</p>"
+        }
+      }
+    }
+  },
+  {
+    "_id": "2fe840ac22a44710",
+    "name": "Rift Troll",
+    "type": "npc",
+    "img": "icons/creatures/mammals/bull-horned-glowing-orange.webp",
+    "system": {
+      "abilities": {
+        "str": {
+          "value": 20
+        },
+        "dex": {
+          "value": 8
+        },
+        "con": {
+          "value": 20
+        },
+        "int": {
+          "value": 5
+        },
+        "wis": {
+          "value": 9
+        },
+        "cha": {
+          "value": 5
+        }
+      },
+      "attributes": {
+        "ac": {
+          "value": 15
+        },
+        "hp": {
+          "value": 115,
+          "max": 115
+        },
+        "movement": {
+          "walk": 30
+        }
+      },
+      "details": {
+        "cr": 7,
+        "type": {
+          "value": "giant"
+        },
+        "alignment": "Chaotic Evil",
+        "biography": {
+          "value": "<p>Trolls that have been exposed to rift energy develop strange mutations. Some can blink short distances, others regenerate even faster than normal, and a few can temporarily phase through solid matter. All are more aggressive and cunning than typical trolls.</p>"
+        }
+      }
+    }
+  },
+  {
+    "_id": "c783fef4cd014dfc",
+    "name": "Bloodaxe Orc Raider",
+    "type": "npc",
+    "img": "icons/weapons/axes/axe-double-engraved.webp",
+    "system": {
+      "abilities": {
+        "str": {
+          "value": 16
+        },
+        "dex": {
+          "value": 12
+        },
+        "con": {
+          "value": 16
+        },
+        "int": {
+          "value": 7
+        },
+        "wis": {
+          "value": 11
+        },
+        "cha": {
+          "value": 10
+        }
+      },
+      "attributes": {
+        "ac": {
+          "value": 13
+        },
+        "hp": {
+          "value": 30,
+          "max": 30
+        },
+        "movement": {
+          "walk": 30
+        }
+      },
+      "details": {
+        "cr": 1,
+        "type": {
+          "value": "humanoid"
+        },
+        "alignment": "Chaotic Evil",
+        "biography": {
+          "value": "<p>The Bloodaxe Tribe rejects civilization and clings to the old orc ways of raiding and pillaging. They view the Shadowfang Clan as traitors and regularly attack them to 'remind them of their true nature.' They also raid human and dwarf settlements.</p>"
+        }
+      }
+    }
+  },
+  {
+    "_id": "fe38ae319dfb447f",
+    "name": "Twilight Druid",
+    "type": "npc",
+    "img": "icons/magic/nature/root-vine-entangled-hand.webp",
+    "system": {
+      "abilities": {
+        "str": {
+          "value": 10
+        },
+        "dex": {
+          "value": 14
+        },
+        "con": {
+          "value": 12
+        },
+        "int": {
+          "value": 12
+        },
+        "wis": {
+          "value": 18
+        },
+        "cha": {
+          "value": 11
+        }
+      },
+      "attributes": {
+        "ac": {
+          "value": 14
+        },
+        "hp": {
+          "value": 45,
+          "max": 45
+        },
+        "movement": {
+          "walk": 30
+        }
+      },
+      "details": {
+        "cr": 4,
+        "type": {
+          "value": "humanoid"
+        },
+        "alignment": "Chaotic Neutral",
+        "biography": {
+          "value": "<p>These elven druids have been corrupted by the twilight energy seeping from the rifts in their forest. They now view the rifts as the ultimate expression of nature's chaos and work to expand them. Their magic is twisted, creating aberrant plants and warping the natural order.</p>"
+        }
+      }
+    }
+  },
+  {
+    "_id": "21064ace1c7a418d",
+    "name": "Rift Goblin",
+    "type": "npc",
+    "img": "icons/creatures/eyes/lizard-single-slit-pink.webp",
+    "system": {
+      "abilities": {
+        "str": {
+          "value": 8
+        },
+        "dex": {
+          "value": 16
+        },
+        "con": {
+          "value": 10
+        },
+        "int": {
+          "value": 10
+        },
+        "wis": {
+          "value": 8
+        },
+        "cha": {
+          "value": 8
+        }
+      },
+      "attributes": {
+        "ac": {
+          "value": 14
+        },
+        "hp": {
+          "value": 12,
+          "max": 12
+        },
+        "movement": {
+          "walk": 30
+        }
+      },
+      "details": {
+        "cr": "1/2",
+        "type": {
+          "value": "humanoid"
+        },
+        "alignment": "Chaotic Evil",
+        "biography": {
+          "value": "<p>Goblins that live near rifts develop strange abilities. These particular goblins can briefly become incorporeal, allowing them to dodge attacks or slip through barriers. They use this ability to steal and ambush travelers near rift zones.</p>"
+        }
+      }
+    }
+  },
+  {
+    "_id": "a015e88bbd9b4da0",
+    "name": "Phase Spider Matriarch",
+    "type": "npc",
+    "img": "icons/creatures/invertebrates/spider-large-giant-web.webp",
+    "system": {
+      "abilities": {
+        "str": {
+          "value": 18
+        },
+        "dex": {
+          "value": 17
+        },
+        "con": {
+          "value": 16
+        },
+        "int": {
+          "value": 6
+        },
+        "wis": {
+          "value": 12
+        },
+        "cha": {
+          "value": 6
+        }
+      },
+      "attributes": {
+        "ac": {
+          "value": 14
+        },
+        "hp": {
+          "value": 68,
+          "max": 68
+        },
+        "movement": {
+          "walk": 40,
+          "climb": 40
+        }
+      },
+      "details": {
+        "cr": 5,
+        "type": {
+          "value": "monstrosity"
+        },
+        "alignment": "Unaligned",
+        "biography": {
+          "value": "<p>An unusually large phase spider that has made its lair near a rift. It can shift between the Material and Ethereal planes, and has learned to drag prey into the Ethereal plane where its webbing is even stronger.</p>"
+        }
+      }
+    }
+  },
+  {
+    "_id": "4b1d8b4f33ea43ab",
+    "name": "Rift Demon",
+    "type": "npc",
+    "img": "icons/magic/unholy/strike-beam-blood-red-purple.webp",
+    "system": {
+      "abilities": {
+        "str": {
+          "value": 18
+        },
+        "dex": {
+          "value": 15
+        },
+        "con": {
+          "value": 16
+        },
+        "int": {
+          "value": 11
+        },
+        "wis": {
+          "value": 12
+        },
+        "cha": {
+          "value": 14
+        }
+      },
+      "attributes": {
+        "ac": {
+          "value": 16
+        },
+        "hp": {
+          "value": 85,
+          "max": 85
+        },
+        "movement": {
+          "walk": 40,
+          "fly": 40
+        }
+      },
+      "details": {
+        "cr": 6,
+        "type": {
+          "value": "fiend"
+        },
+        "alignment": "Chaotic Evil",
+        "biography": {
+          "value": "<p>Demons occasionally slip through the rifts from the Abyss. This particular demon has learned to use the rifts to teleport short distances and is hunting for a way to permanently open a rift to allow more demons through.</p>"
+        }
+      }
+    }
+  },
+  {
+    "_id": "09618f6a118142ef",
+    "name": "Sir Gareth Stonewatch",
+    "type": "npc",
+    "img": "icons/equipment/chest/breastplate-layered-steel.webp",
+    "system": {
+      "abilities": {
+        "str": {
+          "value": 16
+        },
+        "dex": {
+          "value": 11
+        },
+        "con": {
+          "value": 14
+        },
+        "int": {
+          "value": 11
+        },
+        "wis": {
+          "value": 12
+        },
+        "cha": {
+          "value": 14
+        }
+      },
+      "attributes": {
+        "ac": {
+          "value": 18
+        },
+        "hp": {
+          "value": 58,
+          "max": 58
+        },
+        "movement": {
+          "walk": 30
+        }
+      },
+      "details": {
+        "cr": 3,
+        "type": {
+          "value": "humanoid"
+        },
+        "alignment": "Lawful Good",
+        "biography": {
+          "value": "<p>A knight of the Order of the Adamant Shield, Sir Gareth has dedicated his life to protecting common folk from rift-spawned monsters. He is brave, honorable, and sometimes recklessly charges into danger to save innocents.</p>"
+        }
+      }
+    }
+  },
+  {
+    "_id": "187ec5e2441542dd",
+    "name": "Elara Moonwhisper",
+    "type": "npc",
+    "img": "icons/magic/light/beam-rays-blue-large.webp",
+    "system": {
+      "abilities": {
+        "str": {
+          "value": 8
+        },
+        "dex": {
+          "value": 14
+        },
+        "con": {
+          "value": 12
+        },
+        "int": {
+          "value": 18
+        },
+        "wis": {
+          "value": 15
+        },
+        "cha": {
+          "value": 13
+        }
+      },
+      "attributes": {
+        "ac": {
+          "value": 15
+        },
+        "hp": {
+          "value": 60,
+          "max": 60
+        },
+        "movement": {
+          "walk": 30
+        }
+      },
+      "details": {
+        "cr": 8,
+        "type": {
+          "value": "humanoid"
+        },
+        "alignment": "Neutral Good",
+        "biography": {
+          "value": "<p>Archmage and leader of the Circle of Binding, Elara is one of the most powerful wizards in the realm. She believes the rifts are a blight that must be sealed permanently, and dedicates all her resources to finding a way to do so. She can be zealous in pursuit of this goal.</p>"
+        }
+      }
+    }
+  }
+]

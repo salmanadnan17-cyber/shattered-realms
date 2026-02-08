@@ -1,0 +1,98 @@
+[
+  {
+    "_id": "0b65dfa82a854932",
+    "name": "Rift City - Central Plaza",
+    "img": "icons/environment/settlement/city-many-towers.webp",
+    "width": 4000,
+    "height": 3000,
+    "padding": 0.25,
+    "initial": {
+      "x": 2000,
+      "y": 1500,
+      "scale": 0.5
+    },
+    "backgroundColor": "#999999",
+    "gridType": 1,
+    "grid": 100,
+    "gridDistance": 5,
+    "gridUnits": "ft",
+    "shiftX": 0,
+    "shiftY": 0,
+    "description": "The heart of Rift City, built around the stabilized Central Rift. Markets, guildhalls, and the headquarters of major factions surround the pulsing planar gateway.",
+    "notes": [],
+    "tokens": [],
+    "walls": []
+  },
+  {
+    "_id": "2bd00f4b6b43428a",
+    "name": "The Broken Tower - Level 1",
+    "img": "icons/environment/settlement/tower-ruins.webp",
+    "width": 2800,
+    "height": 2800,
+    "padding": 0,
+    "initial": {
+      "x": 1400,
+      "y": 1400,
+      "scale": 1
+    },
+    "backgroundColor": "#666666",
+    "gridType": 1,
+    "grid": 70,
+    "gridDistance": 5,
+    "gridUnits": "ft",
+    "shiftX": 0,
+    "shiftY": 0,
+    "description": "Ground floor of Malachar's ruined tower. Collapsed entrance, scavenging rift goblins, and remnants of magical defenses.",
+    "notes": [],
+    "tokens": [],
+    "walls": []
+  },
+  {
+    "_id": "776a61f419ac44aa",
+    "name": "Shadowfang Hold - Great Hall",
+    "img": "icons/environment/settlement/house-stone.webp",
+    "width": 3000,
+    "height": 2400,
+    "padding": 0.1,
+    "initial": {
+      "x": 1500,
+      "y": 1200,
+      "scale": 0.75
+    },
+    "backgroundColor": "#8B7355",
+    "gridType": 1,
+    "grid": 75,
+    "gridDistance": 5,
+    "gridUnits": "ft",
+    "shiftX": 0,
+    "shiftY": 0,
+    "description": "The great hall of the Shadowfang Clan, where Chieftain Grommak holds court. Rebuilt from ancient dwarven ruins with a unique blend of orcish and dwarven architecture.",
+    "notes": [],
+    "tokens": [],
+    "walls": []
+  },
+  {
+    "_id": "083162b5689d45a9",
+    "name": "Twilight Forest - Heartwood Grove",
+    "img": "icons/environment/wilderness/tree-oak.webp",
+    "width": 4500,
+    "height": 3500,
+    "padding": 0.2,
+    "initial": {
+      "x": 2250,
+      "y": 1750,
+      "scale": 0.5
+    },
+    "backgroundColor": "#4A3F5C",
+    "gridType": 1,
+    "grid": 90,
+    "gridDistance": 5,
+    "gridUnits": "ft",
+    "shiftX": 0,
+    "shiftY": 0,
+    "description": "The corrupted heart of the Twilight Forest. Ancient trees twisted by rift energy surround a massive, pulsing rift. The Twilight Druids perform their dark rituals here.",
+    "notes": [],
+    "tokens": [],
+    "walls": []
+  }
+]
